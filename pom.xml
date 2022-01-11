@@ -19,19 +19,19 @@
 	
 
 	<dependencies>
-		<!-- jpa -->
+		<!-- jpa 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
+		</dependency>-->
 
-		<!-- mvc 
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-		flyway 
+		<!--flyway 
 		<dependency>
 			<groupId>org.flywaydb</groupId>
 			<artifactId>flyway-core</artifactId>
@@ -45,12 +45,12 @@
 			<optional>true</optional>
 		</dependency>
 
-		<!-- h2 -->
+		<!-- h2 
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
-		</dependency>
+		</dependency>-->
 
 		<!-- exclude junit 4 -->
 		<dependency>

@@ -1,6 +1,5 @@
 package com.dominion.dominionsorter.models;
 
-import javax.persistence.Entity;
 
 public class Carta {
     private String nome;
