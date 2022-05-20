@@ -16,7 +16,22 @@ public class CartaServiceImpl implements CartaService{
     @Override
     public Carta returnByName(String string) {
         // TODO Auto-generated method stub
-        return null;
+        Integer contador = 0;
+        for (int i = 0; i < 10; i++){
+            contador++;
+        }
+        
+        return "teste-duplicidade";
+    }
+    
+    public Carta returnByNameDupe(String string) {
+        // TODO Auto-generated method stub
+        Integer contador = 0;
+        for (int i = 0; i < 10; i++){
+            contador++;
+        }
+        
+        return "teste-duplicidade";
     }
 
     @Override
